@@ -1,0 +1,71 @@
+@import 'main.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+html {
+	background: #222 url(../img/abstract-bg.svg) bottom right no-repeat;
+	height: 100%; /*always visible*/
+	background-position: fixed; /*never scrolls with the page*/
+	overflow-y: scroll; /* a scroll in the right that will be present no matter what */
+}
+
+body {
+	background: none;
+	line-height: 1.5;
+	color: #f5f5f5;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Abril Fatface', cursive;
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+/* Overwrite bootstrap styles */
+.navbar-brand, .navbar-nav>li>a {
+	color: #f5f5f5;
+	font-weight: bold;
+}
+
+/* give another color when the navbar is hover */
+.navbar-brand:hover, .navbar-nav>li>a:hover {
+	color: #f5f5f5;
+	font-weight: bold;
+	background: none;
+}
+
+/* add space between the a in navbar*/
+.navbar-nav>li>a:after {
+	content: '/';
+	margin-left: 30px;
+}
+ /* remove the last / */
+.navbar-nav>li:last-child > a:after {
+	content: '';
+}
+
+.navbar-toggle {
+	background: #111;
+}
+
+.navbar-toggle .icon-bar {
+	background: #f5f5f5;
+}
+
+
+/*add media to remove some styles */
+@media (max-width: 768px) {
+	.navbar-nav>li>a:after {
+		content: '';
+	}
+	/* inside the collapse menu */
+	.navbar-nav>li>a {
+		background: #111;
+		border-radius: 4px;
+		margin-bottom: 3px;
+	}
+}

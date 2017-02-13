@@ -1,3 +1,28 @@
 ================================================================
 3.1 Setting Up our project with HTML 5 Boilerplate and Bootstrap
 ================================================================
+
+=================================
+3.2 Resets, Logo, and Navigation
+=================================
+
+Bootstrap page: http://getbootstrap.com/
+
+Go to Components > Navbar 
+
+Get the code and paste in Sublime Text.
+
+General Resets:
+- create a new style.css
+- add some styles.
+- add a backgroud image
+- import some google fonts.
+
+Next we overwrite some bootstrap styles, in the classes created by bootstrap.
+
+What we've donne:
+- implementing bootstrap responsive navbar
+- clean to match our design
+- general reset to our page
+- add some fonts to replace the defaults
+- sift throught preexisting bootstrap styles and override them. 
