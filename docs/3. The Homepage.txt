@@ -43,3 +43,17 @@ We include another bootstrap component the jumbotron.
 Make use and overwrite another bootstrap component, film navigation.
 
 
+====================================================
+3.5 Adding Functionality to Our Filterable Portfolio
+====================================================
+
+We'll use a JavaScript plugin - Isotope to add functionality to our filterable portfolio.
+
+http://isotope.metafizzy.co/
+then - filtering
+in the UI section copy the second boarder to the:
+js > main.js
+
+- how to use JavaScript Isotope plug-in to make filterable portfolio
+
+
