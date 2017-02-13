@@ -35,3 +35,11 @@ Use jumbotrons to create attention-drawing headers to our website.
 
 We include another bootstrap component the jumbotron.
 - overwrite it's default styles to fit our theme
+
+===================================
+3.4 Filterable Portfolio Structure
+===================================
+
+Make use and overwrite another bootstrap component, film navigation.
+
+
