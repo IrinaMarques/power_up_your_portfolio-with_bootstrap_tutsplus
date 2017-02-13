@@ -56,4 +56,10 @@ js > main.js
 
 - how to use JavaScript Isotope plug-in to make filterable portfolio
 
+======================
+3.6 Finishing Touches
+======================
 
+Added a footer with glyphicons
+
+-finished our homepage design and add glyphicons to our project.

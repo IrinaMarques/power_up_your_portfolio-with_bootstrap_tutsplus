@@ -112,6 +112,14 @@ p {
 	margin-bottom: 3rem;
 }
 
+.site-footer span {
+	margin-right: 0.5em;
+}
+
+.site-footer {
+	margin-bottom: 3rem;
+}
+
 /*add media to remove some styles */
 
 @media (max-width: 992px) {
