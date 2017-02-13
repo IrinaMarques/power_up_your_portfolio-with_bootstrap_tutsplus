@@ -26,3 +26,12 @@ What we've donne:
 - general reset to our page
 - add some fonts to replace the defaults
 - sift throught preexisting bootstrap styles and override them. 
+
+=================================
+3.3 Huge Headers With Jumbotrons
+=================================
+
+Use jumbotrons to create attention-drawing headers to our website.
+
+We include another bootstrap component the jumbotron.
+- overwrite it's default styles to fit our theme

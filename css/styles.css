@@ -5,7 +5,7 @@
 html {
 	background: #222 url(../img/abstract-bg.svg) bottom right no-repeat;
 	height: 100%; /*always visible*/
-	background-position: fixed; /*never scrolls with the page*/
+	background-attachment: fixed; /*never scrolls with the page*/
 	overflow-y: scroll; /* a scroll in the right that will be present no matter what */
 }
 
@@ -56,8 +56,32 @@ p {
 	background: #f5f5f5;
 }
 
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.jumbotron {
+	background: none;
+	margin-top: 75px;
+}
+
+.jumbotron h1 {
+	font-size: 120px;
+}
+
+.jumbotron .lead {
+	font-size: 32px;
+}
 
 /*add media to remove some styles */
+
+@media (max-width: 992px) {
+	.jumbotron h1 {
+		font-size: 72px;
+	}
+}
+
 @media (max-width: 768px) {
 	.navbar-nav>li>a:after {
 		content: '';
@@ -68,4 +92,10 @@ p {
 		border-radius: 4px;
 		margin-bottom: 3px;
 	}
+	.jumbotron h1 {
+		font-size: 40px;
+	}
+	.jumbotron .lead {
+		font-size: 20px;
+	} 
 }
