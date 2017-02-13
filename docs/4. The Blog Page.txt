@@ -8,3 +8,10 @@ Remove the portfolio section
 Add new text to the jumbotron
 
 Style some blog posts.
+
+=========================================
+4.2 Adding a Sidebar and Source Ordering
+=========================================
+
+- concept called source ordering
+- offset columns
